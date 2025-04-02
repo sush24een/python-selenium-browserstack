@@ -1,5 +1,5 @@
-userName: susheenkanungo_BrVnyq
-accessKey: 3X2x2xBzJvb9tKCTSBop
+userName: BROWSERSTACK_USERNAME
+accessKey: BROWSERSTACK_ACCESS_KEY
 platforms:
   - os: Windows
     osVersion: 10

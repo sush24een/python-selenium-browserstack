@@ -1,5 +1,5 @@
-# python-selenium-browserstack
-Run python tests on browserstack using the SDK.
+# python-selenium-browserstack-assignment
+Steps to run the python selenium test on browserstack - assignment_browserstack.py
 
 ## Prerequisite
 ```
@@ -9,7 +9,7 @@ python3 should be installed
 ## Setup
 * Clone the repo
 ```
-git clone -b sdk https://github.com/browserstack/python-selenium-browserstack.git
+git clone https://github.com/sush24een/python-selenium-browserstack.git
 ``` 
 * Install packages through requirements.txt
 ```
@@ -33,12 +33,14 @@ pip3 install -r requirements.txt
 
 ## Running tests
 * Run sample test:
-  - To run the sample test across platforms defined in the `browserstack.yml` file, run:
+  - To run the assignment test platforms defined in the `browserstack.yml` file, run:
     ```
-    browserstack-sdk ./tests/test.py
+    browserstack-sdk ./tests/assignment_browserstack.py
     ``` 
-* Run tests on locally hosted website:
-  - To run the local test across platforms defined in the `browserstack.yml` file, run:
-    ```
-    browserstack-sdk ./tests/local-test.py
-    ``` 
+## Notes - future scopes and improvements
+* Use explicit waits before interacting with elements for better synchronization.
+* Optimize navigation by reducing unnecessary page reloads (e.g., minimize driver.back() calls).
+* Implement better handling for paywalled articles.
+* Enhance retry mechanisms for failed requests or missing elements.
+* Store extracted data in a structured format (CSV/JSON) for better usability.
+

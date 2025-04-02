@@ -80,7 +80,7 @@ for i in range(5):
                 img_data = requests.get(img_url).content  # Download the image data
                 img_path = f"article_images/article_{i+1}.jpg"  # Set the image path
                 with open(img_path, "wb") as img_file:
-                    img_file.write(img_data)  # Save the image to disk
+                    img_file.write(img_data)  # Save the image 
                 print(f"Image saved: {img_path}")
         else:
             print("No cover image found for article.")
@@ -122,7 +122,7 @@ for i in range(5):
 
                 # Scroll to load all content
                 last_height = driver.execute_script("return document.body.scrollHeight")
-                max_attempts = 15  # Increase max scroll attempts
+                max_attempts = 15  
                 attempt = 0
 
                 while attempt < max_attempts:
