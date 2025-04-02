@@ -1,0 +1,28 @@
+userName: susheenkanungo_BrVnyq
+accessKey: 3X2x2xBzJvb9tKCTSBop
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 120.0
+  - os: OS X
+    osVersion: Monterey
+    browserName: Safari
+    browserVersion: 15.6
+  - deviceName: iPhone 13
+    osVersion: 15
+    browserName: Chromium
+    deviceOrientation: portrait
+  - os: Windows
+    osVersion: 10
+    browserName: Firefox
+    browserVersion: 98.0
+  - deviceName: Samsung Galaxy S20
+    osVersion: 12
+    browserName: Chrome
+    deviceOrientation: portrait
+browserstackLocal: true
+buildName: assignment-browserstack-final
+projectName: My Assignment 
+
+
